@@ -6,4 +6,25 @@
     </style>
 
     <style name="Theme.MySimpleCalculator" parent="Base.Theme.MySimpleCalculator" />
+
+    <style name="oprationbutton" parent="commonbutton">
+
+        <item name="android:textColor">@color/btnbackground2</item>
+
+    </style>
+
+    <style name="digitbutton" parent="commonbutton">
+
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+
+    <style name="commonbutton" parent="Widget.MaterialComponents.ExtendedFloatingActionButton">
+
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="cornerRadius">36dp</item>
+        <item name="backgroundTint">@color/white</item>
+
+    </style>
 </resources>
