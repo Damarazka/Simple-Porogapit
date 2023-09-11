@@ -58,26 +58,26 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_clear"
                 style="@style/oprationbutton"
-                android:onClick="onDigitClick"
+                android:onClick="onClearClick"
                 android:text="C" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_back"
                 style="@style/digitbutton"
-                android:onClick="onDigitClick"
+                android:onClick="onBackClick"
                 app:icon="@drawable/ic_eraser"
                 app:iconTint="@color/btnbackground2" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_modulo"
                 style="@style/oprationbutton"
-                android:onClick="onDigitClick"
+                android:onClick="onOperatorClick"
                 android:text="%" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_divide"
                 style="@style/oprationbutton"
-                android:onClick="onDigitClick"
+                android:onClick="onOperatorClick"
                 android:text="/" />
 
         </LinearLayout>
@@ -109,7 +109,7 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_multiply"
                 style="@style/oprationbutton"
-                android:onClick="onDigitClick"
+                android:onClick="onOperatorClick"
                 android:text="*" />
 
         </LinearLayout>
@@ -141,7 +141,7 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_add"
                 style="@style/oprationbutton"
-                android:onClick="onDigitClick"
+                android:onClick="onOperatorClick"
                 android:text="+" />
 
         </LinearLayout>
@@ -173,7 +173,7 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_subtract"
                 style="@style/oprationbutton"
-                android:onClick="onDigitClick"
+                android:onClick="onOperatorClick"
                 android:text="-" />
 
         </LinearLayout>
@@ -187,7 +187,7 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_allClear"
                 style="@style/oprationbutton"
-                android:onClick="onDigitClick"
+                android:onClick="onAllClearClick"
                 android:text="Ac"
                 android:textSize="20sp" />
 
@@ -206,7 +206,7 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_equal"
                 style="@style/oprationbutton"
-                android:onClick="onDigitClick"
+                android:onClick="onEqualClick"
                 android:text="=" />
 
         </LinearLayout>
